@@ -26,10 +26,10 @@ import (
 const VendorID = 4057
 
 // ProductID is the USB ProductID assigned to Elgato's Stream Deck (0x0060)
-const ProductID = 96
+const ProductID = 0063
 
 // NumButtons is the total amount of Buttons located on the Stream Deck.
-const NumButtons = 15
+const NumButtons = 6
 
 // numFirstMsgPixels is the amount of pixels which have to be sent to the
 // Stream Deck in the first message.
@@ -43,10 +43,10 @@ const numSecondMsgPixels = 2601
 const ButtonSize = 72
 
 // NumButtonColumns is the number of columns on the Stream Deck.
-const NumButtonColumns = 5
+const NumButtonColumns = 3
 
 // NumButtonRows is the number of button rows on the Stream Deck.
-const NumButtonRows = 3
+const NumButtonRows = 2
 
 // Spacer is the spacing distance (in pixel) of two buttons on the Stream Deck.
 const Spacer = 19
