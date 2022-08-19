@@ -1,4 +1,4 @@
-module github.com/Flyken271/streamdeck
+module github.com/dh1tw/streamdeck
 
 go 1.11
 
